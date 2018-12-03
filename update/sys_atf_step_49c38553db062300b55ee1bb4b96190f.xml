@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Search for 'Apple' and confirm that the search returns 'Apple iPhone 5' item</description>
+        <display_name>Search for a Catalog Item</display_name>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Search for a Catalog Item">96103fdfc3e0320076173b0ac3d3ae57</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>49c38553db062300b55ee1bb4b96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search for a Catalog Item</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_49c38553db062300b55ee1bb4b96190f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <table/>
+        <test display_value="Search and Open Catalog Item copy">45c38553db062300b55ee1bb4b961905</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=49c38553db062300b55ee1bb4b96190f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>01c3c553db062300b55ee1bb4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value>0d08837237153000158bbfc8bcbe5d02</value>
+        <variable display_value="">0ddfbbd3c324320076173b0ac3d3ae07</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>0dc3c553db062300b55ee1bb4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value/>
+        <variable display_value="">82233f13c324320076173b0ac3d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>49c3c553db062300b55ee1bb4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value>Apple</value>
+        <variable display_value="">4f32f713c324320076173b0ac3d3ae7e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>4dc3c553db062300b55ee1bb4b961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value>assert_item_present</value>
+        <variable display_value="">a588587787a91300e0ef0cf888cb0b01</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>85c3c553db062300b55ee1bb4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">16bb323787221300bcbf480688cb0bce</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>49c38553db062300b55ee1bb4b96190f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 11:58:04</sys_created_on>
+        <sys_id>c1c3c553db062300b55ee1bb4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 11:58:04</sys_updated_on>
+        <value/>
+        <variable display_value="">45623b13c324320076173b0ac3d3aefc</variable>
+    </sys_variable_value>
+</record_update>
